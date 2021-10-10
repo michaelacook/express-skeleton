@@ -5,7 +5,7 @@ This Express project skeleton provides an opinionated fully bootstrapped project
 To start using the skeleton project, clone the repo, peruse the `package.json` file to determine which dependencies you want to keep and which you don't, then run `npm install`. The rest of this readme is a guide to understanding and using the skeleton project.
 
 ## Project Structure
-The `src` folder is divided into `common` - business logic or other functionality that is required across more than one module, and `modules` - folders each representing a single object noun in your application. In most cases, each module will contain a model, a controller, and a service.
+The `src` folder is divided into `common` - business logic or other functionality that is required across more than one module, and `modules` - folders each representing a single resource or object noun in your application. In most cases, each module will contain a model, a controller, and a service.
 
 **Note**: Each module directory in `src/modules` **must** be the singular resource name. E.g. `user`, `post`, `song`, etc.
 
