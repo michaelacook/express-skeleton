@@ -2,7 +2,7 @@
 This Express project skeleton provides an opinionated fully bootstrapped project starter to get up and running quickly. The guiding principle is a disciplined approach emphasizing modularity, clean code and convenience. The structure is inspired by the [NestJS](https://nestjs.com/) node framework and aims to mimick a domain-driven design approach. It is highly recommended that you read this file before starting your project.
 
 ## Getting Started
-To start using the skeleton project, clone the repo, peruse the `package.json` file to determine which dependencies you want to keep and which you don't, then run `npm install`. Make sure to delete the `.git` repository and initialize your own. The rest of this readme is a guide to understanding and using the skeleton project.
+To start using the skeleton project, clone the repo, peruse the `package.json` file to determine which dependencies you want to keep and which you don't, then run `npm install`. run `npm run clear-git` to clear the existing git repository and initialize a fresh repository. The rest of this readme is a guide to understanding and using the skeleton project.
 
 ## Project Structure
 The `src` folder is divided into `common` - business logic or other functionality that is required across more than one module, and `modules` - folders each representing a single resource or object noun in your application. In most cases, each module will contain a model, a controller, and a service.

@@ -8,7 +8,8 @@
     "format": "prettier --write --no-semi .",
     "migrate": "npx sequelize-cli db:migrate",
     "seed": "npx sequelize-cli db:seed:all",
-    "new-dev-db": "rm dev && npm run migrate && npm run seed"
+    "new-dev-db": "rm dev && npm run migrate && npm run seed",
+    "clear-git": "rm -rf .git && git init"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
